@@ -1,0 +1,15 @@
+name: facial-exp
+channels:
+  - anaconda
+  - nvidia
+dependencies:
+  - python=3.9
+  - tensorflow-gpu
+  - pip
+  - pip:
+    - numpy
+    - pandas
+    - matplotlib
+    - pillow
+    - scikit-learn
+    - tqdm
